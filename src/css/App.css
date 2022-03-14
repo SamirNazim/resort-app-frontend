@@ -1,0 +1,86 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.listing-preview-container{
+    margin-bottom: 5%;
+    border-bottom: 2px dotted;
+}
+.error{
+    background-color: rgb(241, 68, 68);
+}
+.container-fluid{
+    background-color:  lightgrey;
+    margin-top: 10%;
+}
+.form-check .form-check-inline{
+    margin-bottom: 10%;
+    border-bottom: 2px dotted;
+}
+.form-check  h4{
+    background-color :aqua;
+}
+.property-type-container h3{
+    background-color: aqua;
+}
+/* HEADER */
+header li
+{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+  
+}
+
+header li:nth-child(1)
+{
+    padding-left: 0;
+}
+
+header a 
+{
+    color:black;
+    text-transform: capitalize;
+    font-weight:600;
+}
+
+header ul
+{
+    display: flex;
+    align-items:center; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    background: white;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid black 2px;
+}
+
+.header-logo {
+    height: auto; 
+    width: auto; 
+    max-width: 120px; 
+    max-height: 120px;
+}
+.header-container{
+    margin-bottom: 2%;
+}
+
+.vacation-properties{
+    background-color: aqua;
+}
+/* REGISTER */
+.register-btn{
+    background-color: aqua;
+}
+
+.form-control label{
+    background-color: aqua;
+}
+
+/* CAROUSEL */
+.carousel-container{
+    margin-bottom: 5%;
+    border-bottom: solid black 2px;
+}
